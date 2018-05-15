@@ -1,97 +1,97 @@
+/*MOBILE STYLES*/
+
 * {
   padding: 0;
   margin: 0;
 }
-/*
-.text-primary {
-  color: #2d3c49;
+
+.container {
+  margin: 0.5em;
   font-family: 'Roboto', sans-serif;
-  font-weight: 300;
-  letter-spacing: 1px;
 }
 
-.text-secondary {
-  color: #7d97ad;
+#header {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 0 0.5em 0;
+  border-bottom: 2px solid #7d97ad;
+}
+
+.header-content-title {
+  text-align: right;
+  color: #2d3c49;
   font-family: 'Roboto', sans-serif;
-} */
+  text-transform: uppercase;
+}
 
-  .container {
-    margin: 0.5em;
-    font-family: 'Roboto', sans-serif;
-  }
+.header-content-logo {
+  width: 40px;
+}
 
-  .header-content {
-    display: flex;
-    justify-content: space-between;
-    padding: 0 0 0.5em 0;
-    border-bottom: 2px solid #7d97ad;
-  }
+.header-content-name {
+  font-weight: lighter;
+  font-size: 28px;
+}
 
-  .header-content-logo {
-    width: 40px;
-    height: auto;
-  }
+.header-content-sub {
+  font-weight: bold;
+  font-size: 18px;
+}
 
-  .header-content-title {
-    text-align: right;
-    color: #2d3c49;
-    font-family: 'Roboto', sans-serif;
-  }
+.featured-image {
+  max-width: 100%;
+  height: auto;
+  margin: 0.75em 0;
+}
 
-  .header-content-title h1 {
-    font-weight: 200;
-  }
+.featured-work-title {
+  color: #7d97ad;
+  font-size: 22px;
+}
 
-  .featured-image {
-    max-width: 100%;
-    height: auto;
-    margin: 0.75em 0;
-    /*TODO figure this out!*/
-  }
+.featured-work {
+  display: flex;
+  flex-direction: column;
+}
 
-  .featured-work {
-    display: flex;
-    flex-direction: column;
-    overflow: hidden;
-  }
+.article {
+  overflow: hidden;
+  position: relative;
+  margin: 4px 0;
+  height: 200px;
+}
 
-  .featured-work-title {
-    color: #7d97ad;
-    font-size: 18px;
-  }
+.article img {
+  object-fit: cover;
+  width: 100%;
+  height: inherit;
+}
 
-  .article {
-    overflow: hidden;
-    position: relative;
-    margin: 4px 0;
-    height: 150px;
-  }
+.article div {
+  color: #FFF;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  background-color: rgba(0,0,0,0.75);
+  padding: 10px;
+}
 
-  .article img {
-    object-fit: cover;
-    width: 100%;
-    height: inherit;
-  }
+.article-title {
+  text-transform: uppercase;
+  color: #FFF;
+  letter-spacing: 1px;
+  font-weight: 400;
+  font-size: 20px;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
 
-  .article div {
-    color: #FFF;
-    position: absolute;
-    bottom: 0;
-    right: 0;
-    left: 0;
-    background-color: rgba(0,0,0,0.75);
-    padding: 10px;
-  }
-
-  .article-title {
-    text-transform: uppercase;
-    color: #FFF;
-    letter-spacing: 1px;
-    font-weight: 400;
-    font-size: 20px;
-  }
-
-  .article-link {
-    font-weight: 200;
-    font-size: 12px;
-  }
+.article-link {
+  font-weight: 200;
+  font-size: 12px;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
