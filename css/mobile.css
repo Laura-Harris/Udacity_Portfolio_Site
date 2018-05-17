@@ -29,12 +29,12 @@
 }
 
 .header-content-name {
-  font-weight: lighter;
+  font-weight: 200;
   font-size: 28px;
 }
 
 .header-content-sub {
-  font-weight: bold;
+  font-weight: 400;
   font-size: 18px;
 }
 
