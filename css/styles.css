@@ -1,0 +1,66 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  color: #2d3c49;
+  line-height: normal;
+}
+
+h1 {
+  font-size: 2rem;
+}
+
+header {
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.75em 0;
+}
+
+.logo-image img {
+  width: 44px;
+  height: auto;
+}
+
+.divider {
+  height: 2px;
+  background-color: #2d3c49;
+}
+
+.featured-img {
+  max-height: 450px;
+}
+
+@media only screen and (max-width: 760px) {
+  .featured-img {
+    max-height: 300px;
+  }
+}
+
+.featured-img img {
+  object-fit: cover;
+}
+
+.text-section{
+  color: #7d97ad;
+  text-transform: capitalize;
+}
+
+.page-title {
+  color: #2d3c49;
+  text-transform: uppercase;
+}
+
+.page-title h1,
+.page-title p {
+  margin-bottom: 0;
+}
+
+.card {
+  margin-bottom: 0.5rem;
+}
+
+.card-body {
+  padding: 0.75rem;
+}
+
+.card-title {
+  margin-bottom: 0.25rem;
+}
