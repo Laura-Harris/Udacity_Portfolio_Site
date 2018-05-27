@@ -7,7 +7,7 @@ Udacity's second project for the [Full Stack Web Developer Nanodegree](https://w
 
 ### Credit
 
-* [Udacity](udacity.com) for providing the inital webpage design
-* [Pixabay](pixabay.com) for free use images
-* [Bootstrap](getbootstrap.com)
+* [Udacity](https://udacity.com) for providing the inital webpage design
+* [Pixabay](https://pixabay.com) for free use images
+* [Bootstrap](https://getbootstrap.com)
 * [Bootstrap Cheat Sheet](https://hackerthemes.com/bootstrap-cheatsheet/): for quick reference 
